@@ -1,0 +1,18 @@
+.slider-image {
+    height: 91.5vh;
+}
+
+.set-cards {
+    display: inline-flex;
+}
+
+.h3 {
+    font-family: monospace;
+    text-align: center;
+    margin: 25px 0 0 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: honeydew;
+}

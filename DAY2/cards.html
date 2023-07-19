@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <title>Basics of Bootstrap5.3</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kashif Hussain</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experiences</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Social links
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.linkedin.com/in/kashifjanwali"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.github.com/kashifjanwali"
+                    >GitHub</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.twitter.com/kashifjanwali"
+                    >Twitter</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slider Images -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="../Images/img3.jpg"
+            class="slider-image d-block w-100"
+            alt="Image 3"
+            title="HTML Coding"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../Images/img1.jpg"
+            class="slider-image d-block w-100"
+            alt="Image 1"
+            title="Hacker"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../Images/img2.jpg"
+            class="slider-image d-block w-100"
+            alt="imgage 2"
+            title="JavaScript Coding"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container-fluid">
+      <h3 class="h3">We are Offering Different Programs for Beginners</h3>
+      <!-- Cards -->
+
+      <!-- Card 1 -->
+      <div class="set-cards card my-3" style="width: 18rem">
+        <img
+          src="../Images/HTML.png"
+          class="card-img-top"
+          alt="HTML5"
+          title="HTML5"
+        />
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            HyperText markup Language
+          </h6>
+          <p class="card-text">
+            The HyperText Markup Language or HTML is the standard markup
+            language for documents designed to be displayed in a web browser. It
+            defines the meaning and structure of web content.
+          </p>
+          <a
+            href="https://www.w3schools.com/html/"
+            class="btn btn-primary"
+            title="Start you Learning with W3Schools"
+            >Learn HTML 5</a
+          >
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="set-cards card my-3" style="width: 18rem">
+        <img
+          src="../Images/css.png"
+          class="card-img-top"
+          alt="HTML5"
+          title="HTML5"
+        />
+        <div class="card-body">
+          <h5 class="card-title">CSS</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            Cascading Style Sheet
+          </h6>
+          <p class="card-text">
+            Cascading Style Sheets is a style sheet language used for describing
+            the presentation of a document written in a markup language such as
+            HTML or XML.
+          </p>
+          <a
+            href="https://www.w3schools.com/css/"
+            class="btn btn-primary"
+            title="Start you Learning with W3Schools"
+            >Learn CSS 3</a
+          >
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="set-cards card my-3" style="width: 18rem">
+        <img
+          src="../Images/bootstrap.jpg"
+          class="card-img-top"
+          alt="HTML5"
+          title="HTML5"
+        />
+        <div class="card-body">
+          <h5 class="card-title">BootStrap</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">CSS Library</h6>
+          <p class="card-text">
+            Bootstrap is a free and open-source CSS framework directed at
+            responsive, mobile-first front-end web development.
+          </p>
+          <a
+            href="https://www.w3schools.com/bootstrap/"
+            class="btn btn-primary"
+            title="Start you Learning with W3Schools"
+            >Learn Bootstrap 5</a
+          >
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="set-cards card my-3" style="width: 18rem">
+        <img
+          src="../Images/js.webp"
+          class="card-img-top"
+          alt="HTML5"
+          title="HTML5"
+        />
+        <div class="card-body">
+          <h5 class="card-title">JS</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">JavaScript</h6>
+          <p class="card-text">
+            JavaScript, often abbreviated as JS, is a programming language that
+            is one of the core technologies of the World Wide Web, alongside
+            HTML and CSS.
+          </p>
+          <a
+            href="https://www.w3schools.com/js/"
+            class="btn btn-primary"
+            title="Start you Learning with W3Schools"
+            >Learn JavaScript</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
