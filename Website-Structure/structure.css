@@ -1,0 +1,60 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#r0 {
+    height: 7.5vh;
+    background-color: hotpink;
+}
+
+#c0 {
+    line-height: 7.5vh;
+    text-align: center;
+}
+
+#r1 {
+    background-color: chartreuse;
+    height: 85vh;
+}
+
+#r1c1 {
+    background-color: cornflowerblue;
+    line-height: 85vh;
+    text-align: center;
+}
+
+#r2 {
+    background-color: darkseagreen;
+    height: 55vh;
+}
+
+#r2c1 {
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+#r2c2 {
+    background-color: darkgray;
+    text-align: center;
+}
+
+#r3 {
+    background-color: crimson;
+    height: 30vh;
+}
+
+#r3c1 {
+    background-color: dodgerblue;
+    line-height: 30vh;
+    text-align: center;
+}
+#r3c2 {
+    background-color: rgb(79, 112, 145);
+    line-height: 30vh;
+    text-align: center;
+}
+#r3c3 {
+    background-color: rgb(174, 200, 226);
+    line-height: 30vh;
+    text-align: center;
+}
