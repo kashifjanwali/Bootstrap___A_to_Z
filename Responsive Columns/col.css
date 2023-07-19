@@ -1,0 +1,60 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row {
+    height: 80px;
+}
+
+.set-cols {
+    line-height: 80px;
+    text-align: center;
+}
+
+#c1 {
+    background-color: lightslategray;
+}
+
+#c2 {
+    background-color: rgb(142, 187, 231);
+}
+
+#c3 {
+    background-color: rgb(174, 214, 253);
+}
+
+#c4 {
+    background-color: rgb(122, 127, 133);
+}
+
+#c5 {
+    background-color: rgb(31, 91, 151);
+}
+
+#c6 {
+    background-color: rgb(227, 231, 236);
+}
+
+#c7 {
+    background-color: rgb(211, 106, 106);
+}
+
+#c8 {
+    background-color: rgb(227, 230, 75);
+}
+
+#c9 {
+    background-color: rgb(76, 223, 39);
+}
+
+#c10 {
+    background-color: rgb(148, 98, 212);
+}
+
+#c11 {
+    background-color: rgb(49, 189, 130);
+}
+
+#c12 {
+    background-color: rgb(92, 116, 145);
+}
