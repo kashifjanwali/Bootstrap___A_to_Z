@@ -1,0 +1,143 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Header Section */
+.head-row {
+    height: 8vh;
+    background-color: black;
+}
+.head-col {
+    line-height: 8vh;
+    color: whitesmoke;
+}
+
+
+/* Hero Section */
+.hero-sec-row {
+    background-color: cornflowerblue;
+    height: 76vh;
+}
+.hero-sec-col {
+    line-height: 76vh;
+}
+
+
+/* Listing Sections */
+
+/* Row1 */
+
+/* Col1 */
+.listing-row {
+    background-color: burlywood;
+    height: 100vh;
+}
+
+/* Col2 */
+.listing-col-1 {
+    background-color: rgb(241, 122, 146);
+    line-height: 100vh;
+}
+/* Nersted Row in Row1 Col2 */
+.li-col2-nr{
+    background-color: darkgray;
+    height: 100vh;
+}
+/* Nested Col1 */
+.l1-col2-nc1 {
+    background-color: rgb(205, 230, 182);
+}
+/* Nested Col2 */
+.l1-col2-nc2 {
+    background-color: rgb(146, 209, 151);
+}
+
+/* Col3 */
+.listing-col-3 {
+    background-color: rgb(219, 202, 134);
+    line-height: 60vh;
+}
+
+
+.new-row{
+    background-color: cyan;
+    height: 100vh;
+}
+
+.new-col-1 {
+    background-color: rgb(194, 212, 90);
+    line-height: 100vh;
+}
+.new-col-2 {
+    background-color: rgb(210, 218, 175);
+    line-height: 100vh;
+}
+.new-col-3 {
+    background-color: rgb(166, 192, 50);
+    line-height: 100vh;
+}
+
+.customer-row {
+    background-color: limegreen;
+    height: 50vh;
+}
+.customer-col-1 {
+    background-color: rgb(237, 147, 83);
+    line-height: 50vh;
+}
+.customer-col-2{
+    line-height: 50vh;
+}
+
+.service-row {
+    background-color: crimson;
+    height: 20vh;
+}
+
+.service-col-1 {
+    line-height: 20vh;
+}
+.service-col-2 {
+    background-color: rgb(225, 68, 100);
+    line-height: 20vh;
+}
+.service-col-3 {
+    background-color: rgb(215, 120, 139);
+    line-height: 20vh;
+}
+.service-col-4 {
+    background-color: rgb(220, 145, 160);
+    line-height: 20vh;
+}
+
+.badge-row {
+    background-color: yellow;
+    height: 40vh;
+}
+.badge-col-1{
+    background-color: yellowgreen;
+    line-height: 40vh;
+}
+.badge-col-2{
+    background-color: rgb(170, 222, 66);
+    line-height: 40vh;
+}
+.badge-col-3{
+    background-color: rgb(176, 207, 114);
+    line-height: 40vh;
+}
+.badge-col-4{
+    background-color: rgb(184, 196, 159);
+    line-height: 40vh;
+}
+
+.footer-row {
+    background-color: black;
+    color: whitesmoke;
+    height: 80vh;
+}
+
+.footer-col {
+    line-height: 80vh;
+}
