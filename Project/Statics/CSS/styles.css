@@ -1,0 +1,58 @@
+
+/* Brand name */
+#brand-name {
+    color: rgb(57, 125, 252);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/* nav bar items */
+.nav-item a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Hero Images */
+#hero-img{
+    height: 92.3vh;
+}
+
+/* Home Page */
+.page-title {
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(43, 116, 250);
+}
+.page-note {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Services Page */
+.row1-1 {
+    height: 60vh;
+}
+
+.row2-2 {
+    height: 60vh;
+}
+
+
+.text-colunm{
+    border-top: 8px solid red;
+    border-bottom: 8px solid red;
+    text-align: center;
+}
+
+.text-colunm h3 {
+    line-height: 55vh;
+}
+
+.image-colunm {
+    border-left: 8px solid rgb(41, 247, 41);
+    border-right: 8px solid rgb(41, 247, 41);
+}
+
+.service-images{
+    width: 100%;
+    height: 100%;
+}
