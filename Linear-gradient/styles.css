@@ -1,0 +1,20 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+}
+
+.row{
+    height: 100vh;
+}
+
+.col{
+    padding-top: 50vh;
+}
+
+#hero-image {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url(./img2.jpg);
+    background-repeat: round;
+}
+h1, p{
+    font-family: Audiowide, sans-serif;
+}
